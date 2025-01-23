@@ -1,113 +1,89 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Arisa Nakai",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://github.com/arisa-1208.png",
+    "email": "arisacn@hawaii.edu",
+    "phone": "808-799-7121",
+    "website": "https://arisa-1208.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences as well as Business Management at Shidler College of Business at the University of Hawaii. I expect to graduate in Spring, 2027.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "arisa-1208", "url": "http://github.com/arisa-1208" },
+      { "network": "linkedin", "username": "arisa-nakai", "url": "https://www.linkedin.com/in/arisa-nakai-0902rt0129/" },
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Web Design" },
+    { "name": "Software Development" },
+    { "name": "Finance and Investments" },
+    { "name": "Real Estate" },
+    { "name": "Artificial Intelligence" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Git/GitHub" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2027)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2023-08",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": [ "ICS 111", "ICS 141", "ICS 211", "ICS 241", "ICS 314" ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Juku Takahashi",
+      "position": "Private Tutor",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2024-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Teach English & Math to students from Pre-K to High School level",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "As a dedicated tutor, I provide personalized academic support to students ranging from PreK to high school. My work spans a variety of subjects, helping students develop critical skills, build confidence, and excel in their academic journeys.",
+        "I take a personalized approach to each student's learning, tailoring lessons and test prep to meet their individual needs and academic goals."
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Manoa Academic Merit Scholarship",
+      "date": "August 2023",
+      "awarder": "University of Hawai'i at Manoa",
+      "summary": "Scholarships awarded to incoming freshmen, degree-seeking applicants who complete a rigorous high school curriculum with a minimum overall GPA of 3.6 or higher at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Academic Honors Recognition",
+      "date": "May 2023",
+      "awarder": "State of Hawai'i Department of Education",
+      "summary": "Recognized for exceptional academic achievement, requiring a minimum 3.0 GPA, completion of advanced coursework in both lab sciences and mathematics, and participation in AP, IB, or Running Start programs."
+    },
+    {
+      "title": "Career and Technical Education (CTE) Honors Recognition",
+      "date": "May 2023",
+      "awarder": "State of Hawai'i Department of Education",
+      "summary": "Awarded for excellence in Career and Technical Education (CTE) through the completion of a focused program in Business, consisting of 3 years of coursework and a performance-based assessment. I successfully met or exceeded the assessment criteria, demonstrating strong practical skills and proficiency in business concepts."
+    },
+    {
+      "title": "Seal of Biliteracy",
+      "date": "May 2023",
+      "awarder": "State of Hawai'i Department of Education",
+      "summary": "Earned the Seal of Biliteracy in recognition of my proficiency in English and a second language. With a minimum 3.0 GPA, successful completion of Language Arts courses, and a score of 5 on AP Japanese, it shows my bilingual abilities and commitment to linguistic diversity."
+    },
+    {
+      "title": "AP Scholar",
+      "date": "May 2022",
+      "awarder": "College Board",
+      "summary": "Awarded by the College Board for exceptional academic achievement and high scores across multiple Advanced Placement exams, demonstrating college-level mastery in rigorous subject areas."
     }
   ],
   "references": [

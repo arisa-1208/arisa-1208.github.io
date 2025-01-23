@@ -37,20 +37,22 @@
       "studyType": "B.S.",
       "startDate": "2023-08",
       "endDate": "Present",
-      "courses": [ "ICS 111", "ICS 141", "ICS 211", "ICS 241", "ICS 314" ]
+      "courses": [ "ICS 111", "ICS 141", "ICS 211", "ICS 241" ]
     }
   ],
   "work": [
     {
-      "company": "Juku Takahashi",
-      "position": "Private Tutor",
+      "company": "Dr. Takahashi Juku, LTD.",
+      "position": "Tutor",
       "website": "",
       "startDate": "2024-01",
       "endDate": "Present",
       "summary": "Teach English & Math to students from Pre-K to High School level",
       "highlights": [
         "As a dedicated tutor, I provide personalized academic support to students ranging from PreK to high school. My work spans a variety of subjects, helping students develop critical skills, build confidence, and excel in their academic journeys.",
-        "I take a personalized approach to each student's learning, tailoring lessons and test prep to meet their individual needs and academic goals."
+        "I take a personalized approach to each student's learning, tailoring lessons and test prep to meet their individual needs and academic goals.",
+        "Assisting with Private School Enrollment Process",
+        "SSAT & SAT Prep"
       ]
     }
   ],

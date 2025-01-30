@@ -49,3 +49,4 @@ void addRecord(struct record **start, int accountno, char name[], char address[]
         *start = newRecord;
     }
 }
+```

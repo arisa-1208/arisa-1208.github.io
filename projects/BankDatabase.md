@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/bank-database/bank-database-square.png
+image: img/bluebank.avif
 title: "Bank Database System"
 date: 2024
 published: true

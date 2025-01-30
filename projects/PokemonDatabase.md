@@ -12,12 +12,12 @@ labels:
 summary: "A Pokémon database system implemented in C, using file I/O operations for structured data storage. ICS 212"
 ---
 
-<img class="img-fluid" src="../img/pikachu.webp" style="max-width: 50%; border: 3px solid #444; 
+<img class="img-fluid" src="../img/pikachu.webp" style="max-width: 50%; 
                 border-radius: 12px; 
                 padding: 8px; 
-                background-color: #f8f8f8; 
-                box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
-
+                background-color: white; 
+                box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);">
+                
 ## Project Overview  
 This project is a **Pokémon database system** that allows users to **store and retrieve Pokémon data** (name and level) using file I/O operations in C. It focuses on binary file handling, ensuring structured data storage that persists between program runs.  
 

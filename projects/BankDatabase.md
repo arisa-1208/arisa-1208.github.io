@@ -12,7 +12,7 @@ labels:
 summary: "A C-based bank record management system implementing linked lists for dynamic record storage."
 ---
 
-<img class="img-fluid" src="../img/bank-database/bank-database-header.png">
+<img class="img-fluid" src="../img/banking.webp">
 
 ## Project Overview  
 This project is a **C-based bank record management system** that allows users to **add, search, modify, and delete bank records** stored in a linked list. The system ensures efficient memory usage and provides a user-friendly interface for handling records dynamically. The program operates through a menu-driven interface, allowing users to interact with the database easily.  
@@ -173,3 +173,17 @@ Below is an example of the program output when a user selects the "add" option t
 <div style="text-align: center;">
     <img src="../img/BankCode.PNG" alt="Bank Code Screenshot" style="max-width: 70%; border: 2px solid #ddd; border-radius: 8px; padding: 5px;">
 </div> 
+
+### My Role & Contributions
+I worked on several key parts of the project, including user-interface functions, input validation, and linked list operations. My main tasks were designing and coding the add, search, modify, delete, and print functions to handle bank records efficiently and keep everything organized.
+
+I also made sure memory was allocated and freed properly to avoid issues like memory leaks. Debugging was a big part of my work—I used gdb and print statements to figure out problems like segmentation faults and memory errors. I created input validation to make sure user inputs, especially multi-line addresses, worked without causing errors. I also wrote a test plan (testplan.xlsx) and documentation (summary.txt) to check that the program ran as expected.
+
+Adding a debug mode was one of the more challenging parts. It let users see what was happening behind the scenes, which made troubleshooting easier. Overall, I focused on making the program simple to use, well-organized, and reliable.
+
+### Lessons Learned & Skills Gained
+This project helped me get better at managing linked lists, working with dynamic memory, and debugging in C. I learned a lot about how pointers work and how to handle memory safely to avoid problems like memory leaks.
+
+I also got better at problem-solving and debugging by using gdb to fix issues like segmentation faults. Breaking the project into smaller functions made it easier to debug and test, and creating a test plan helped me catch unexpected behaviors before finishing the program.
+
+Writing documentation showed me how important it is to explain things clearly so others can understand and use the program. Overall, this project gave me confidence in building structured, efficient, and reliable programs in C.

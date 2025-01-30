@@ -13,7 +13,7 @@ summary: "A C-based bank record management system implementing linked lists for 
 ---
 
 <div style="float: left; margin-right: 15px;">
-<img class="img-fluid" src="../img/banking.webp" style="max-width: 100%; 
+<img class="img-fluid" src="../img/banking.webp" style="max-width: 40%; 
                 border-radius: 12px; 
                 padding: 8px; 
                 background-color: white; 

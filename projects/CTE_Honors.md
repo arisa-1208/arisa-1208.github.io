@@ -18,8 +18,21 @@ summary: "Developed a strategic marketing plan to increase vendor participation,
 </div>
 
 ## **📌 Project Overview**
+<style>
+  @media (max-width: 600px) {
+    img {
+      float: none;
+      display: block;
+      margin: 0 auto 15px auto;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+</style>
+
 <img src="../img/noelani_craft_fair 2.jpg" 
-     style="float: left; margin: 0 15px 10px 0; width: 100%; max-width: 300px; border-radius: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);">
+     style="float: left; margin: 0 15px 10px 0; width: 100%; max-width: 250px; border-radius: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);">
 
 <p>
   The <b>Noelani Craft & Children’s Fair</b> is an annual fundraiser supporting school programs, faculty, 

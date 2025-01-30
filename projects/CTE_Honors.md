@@ -18,7 +18,7 @@ summary: "Developed a strategic marketing plan to increase vendor participation,
 </div>
 
 ## **📌 Project Overview**
-<img src="../img/noelani craft fair photo.jpg" width="250px" 
+<img src="../img/noelani_craft_fair 2.jpg" width="250px" 
      style="float: left; margin: 0 20px 10px 0; border-radius: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);">
 
 <p>

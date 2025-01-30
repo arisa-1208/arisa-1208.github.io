@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/pokemon.jpg
+image: img/pokemonlevel.jpeg
 title: "Pokémon Database: File I/O Implementation in C"
 date: 2024
 published: true
@@ -15,7 +15,7 @@ summary: "A Pokémon database system implemented in C, using file I/O operations
 <img class="img-fluid" src="../img/pokemon_database.png" style="max-width: 70%; border: 2px solid #ddd; border-radius: 8px; padding: 5px; margin-bottom: 20px;">
 
 ## Project Overview  
-This project is a **Pokémon database system** that allows users to **store and retrieve Pokémon data** (name and level) using **file I/O operations in C**. It focuses on **binary file handling**, ensuring structured data storage that persists between program runs.  
+This project is a **Pokémon database system** that allows users to **store and retrieve Pokémon data** (name and level) using file I/O operations in C. It focuses on binary file handling, ensuring structured data storage that persists between program runs.  
 
 The project involved implementing key functions for **writing and reading structured data** using `fwrite()` and `fread()`, ensuring that Pokémon records were saved correctly and retrieved accurately. Testing was conducted using custom test drivers to validate file handling and data integrity.
 
@@ -29,7 +29,7 @@ The final system supports:
 
 ##  **Writing and Reading Pokémon Data (iofunctions.c)**
 
-The `writefile` function is responsible for **storing Pokémon records** into a binary file. Each Pokémon has a **name** (stored as a character array) and a **level** (stored as an integer). The function ensures that the data is written in a structured format.
+The `writefile` function is responsible for storing Pokémon records into a binary file. Each Pokémon has a name (stored as a character array) and a level (stored as an integer). The function ensures that the data is written in a structured format.
 
 ```c
 /*****************************************************************
@@ -161,7 +161,7 @@ Pokemon 3 - Level: 100, Name: Jigglypuff
 ```
 ---
 ###  **My Role & Contributions**
-My role in this project was to implement the **file I/O functions (`writefile` and `readfile`) in `iofunctions.c`**, ensuring that Pokémon data was written and retrieved correctly. Additionally, I developed **`driver.c`**, a test program that systematically verified file operations by storing sample Pokémon records, reading them back, and checking for errors such as missing or corrupted files. I was responsible for designing the structure of the file storage, handling error cases, and debugging issues related to data persistence and incorrect formatting. To confirm that the program worked as expected, I created test scenarios and documented results in `output.txt`.  
+My role in this project was to implement the file I/O functions (`writefile` and `readfile`) in `iofunctions.c`, ensuring that Pokémon data was written and retrieved correctly. Additionally, I developed `driver.c`, a test program that systematically verified file operations by storing sample Pokémon records, reading them back, and checking for errors such as missing or corrupted files. I was responsible for designing the structure of the file storage, handling error cases, and debugging issues related to data persistence and incorrect formatting. To confirm that the program worked as expected, I created test scenarios and documented results in `output.txt`.  
 
 ###  **Lessons Learned & Skills Gained**
-This project strengthened my understanding of **binary file handling in C** and improved my skills in **structured programming and debugging file-related issues**. I learned how to manage structured data efficiently using `fwrite()` and `fread()`, how to handle errors like unreadable files, and how to test file operations with systematic validation. Additionally, I gained experience in writing **modular code**, breaking down functionality into separate files (`iofunctions.c` and `driver.c`), which made the program more organized and easier to maintain. This experience provided me with a deeper understanding of how **real-world applications store and retrieve data persistently**, reinforcing key concepts in file handling and structured programming.
+This project strengthened my understanding of binary file handling in C and improved my skills in structured programming and debugging file-related issues. I learned how to manage structured data efficiently using `fwrite()` and `fread()`, how to handle errors like unreadable files, and how to test file operations with systematic validation. Additionally, I gained experience in writing modular code, breaking down functionality into separate files (`iofunctions.c` and `driver.c`), which made the program more organized and easier to maintain. This experience provided me with a deeper understanding of how **real-world applications store and retrieve data persistently**, reinforcing key concepts in file handling and structured programming.

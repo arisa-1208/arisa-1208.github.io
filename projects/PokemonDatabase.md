@@ -27,7 +27,7 @@ The final system supports:
 
 ---
 
-##  **Writing and Reading Pokémon Data (`iofunctions.c`)**
+##  **Writing and Reading Pokémon Data (iofunctions.c)**
 
 The `writefile` function is responsible for **storing Pokémon records** into a binary file. Each Pokémon has a **name** (stored as a character array) and a **level** (stored as an integer). The function ensures that the data is written in a structured format.
 
@@ -129,7 +129,7 @@ int readfile(struct pokemon pokearray[], int *num, char filename[])
     return 0;
 }
 ```
-
+---
 ##  **Example Output**
 
 Below is an example of how the program writes Pokémon data to a file and retrieves it using `writefile` and `readfile`. The program first stores three Pokémon records and then reads them back, displaying the retrieved data.
@@ -159,7 +159,7 @@ Pokemon 1 - Level: 150, Name: Skitty
 Pokemon 2 - Level: 220, Name: Happiny
 Pokemon 3 - Level: 100, Name: Jigglypuff
 ```
-
+---
 ###  **My Role & Contributions**
 My role in this project was to implement the **file I/O functions (`writefile` and `readfile`) in `iofunctions.c`**, ensuring that Pokémon data was written and retrieved correctly. Additionally, I developed **`driver.c`**, a test program that systematically verified file operations by storing sample Pokémon records, reading them back, and checking for errors such as missing or corrupted files. I was responsible for designing the structure of the file storage, handling error cases, and debugging issues related to data persistence and incorrect formatting. To confirm that the program worked as expected, I created test scenarios and documented results in `output.txt`.  
 

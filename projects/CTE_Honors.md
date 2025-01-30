@@ -18,10 +18,14 @@ summary: "Developed a strategic marketing plan to increase vendor participation,
 </div>
 
 ## **📌 Project Overview**
-The **Noelani Craft & Children’s Fair** is an annual fundraiser supporting school programs, faculty, and facility improvements. My team and I developed a **comprehensive marketing plan** to boost vendor participation by **at least 10%**, increase event awareness, and optimize engagement through data-driven strategies.
-
-<div class="text-center p-4">
-  <img width="300px" src="../img/noelani craft fair photo.jpg" class="img-thumbnail" >
+<div style="display: flex; align-items: center;">
+  <img src="../img/noelani-craft-fair-photo.jpg" width="300px" class="img-thumbnail" style="margin-right: 20px;">
+  <p>
+    The <b>Noelani Craft & Children’s Fair</b> is an annual fundraiser supporting school programs, faculty, and 
+    facility improvements. My team and I developed a <b>comprehensive marketing plan</b> to boost vendor 
+    participation by <b>at least 10%</b>, increase event awareness, and optimize engagement through 
+    data-driven strategies.
+  </p>
 </div>
 
 

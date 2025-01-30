@@ -28,25 +28,148 @@ The final system supports:
 
 ---
 
-## Data Structures & Implementation  
-The system is built using **linked lists** to manage bank records dynamically. Each record is stored in a **struct** containing the following fields:  
+## Data Structures & Code Implementation 
+
+### Inserting a Record into the Database 
+The database.c file is responsible for managing the bank records using a linked list. It contains all the core functions that handle data operations, such as adding, finding, modifying, deleting, and printing records. Since the program must store records dynamically, it uses linked lists to manage memory efficiently. Each record is stored in a struct containing the following fields:  
 
 - `accountno` – Unique integer identifier for each bank account.  
 - `name` – Character array to store the account holder’s name.  
 - `address` – Multi-line address stored as a character array.  
-- `next` – Pointer to the next record in the linked list.  
+- `next` – Pointer to the next record in the linked list.
 
-## Code Implementation  
-### Adding a New Record  
+The code below is a part of my code where it shows how the new data is added to the database in a specific order so that it prevents duplications. 
+
 ```c
-void addRecord(struct record **start, int accountno, char name[], char address[]) {
-    struct record *newRecord = malloc(sizeof(struct record));
-    if (newRecord != NULL) {
-        newRecord->accountno = accountno;
-        strcpy(newRecord->name, name);
-        strcpy(newRecord->address, address);
-        newRecord->next = *start;
-        *start = newRecord;
+/*****************************************************************
+//
+//  Function name: addRecord
+//
+//  DESCRIPTION:   Adds a new record to the database in sorted order
+//                while preventing duplicates.
+//
+//  Parameters:    start (struct record **) : Pointer to the start of the list
+//                accountno (int)          : Account number to add
+//                name (char [])           : Account holder's name
+//                address (char [])        : Account holder's address
+//
+//  Return values: 0 : Success
+//                -1 : Duplicate account number found
+//
+*****************************************************************/
+
+int addRecord(struct record **start, int accountno, char name[], char address[]) 
+{
+    struct record *temp, *current, *previous = NULL;
+
+    temp = (struct record *) malloc(sizeof(struct record));
+
+    if (temp == NULL) 
+    {
+        printf("Memory allocation failed.\n");
+        return -1;
     }
+
+    temp->accountno = accountno;
+    strcpy(temp->name, name);
+    strcpy(temp->address, address);
+    temp->next = NULL;
+
+    if (*start == NULL) 
+    {
+        *start = temp;
+    } 
+    else 
+    {
+        current = *start;
+
+        while (current != NULL && accountno > current->accountno) 
+        {
+            previous = current;
+            current = current->next;
+        }
+
+        if (current != NULL && accountno == current->accountno) 
+        {
+            free(temp);
+            return -1;
+        }
+
+        if (previous == NULL) 
+        {
+            temp->next = *start;
+            *start = temp;
+        } 
+        else 
+        {
+            temp->next = previous->next;
+            previous->next = temp;
+        }
+    }
+
+    return 0;
 }
 ```
+### Processing User Input for Adding a Record
+The user_interface.c file is responsible for handling all user interactions with the bank database system. It provides a menu-driven interface, allowing users to add, search, modify, delete, and print bank records. This file also ensures input validation to prevent incorrect user input and manages multi-line address input using fgetc().
+
+The code below is an example of how it handles the addition of a new bank record when the user selects "add". It first validates the account number, ensuring it is a positive integer. If the input is invalid, the user is prompted to try again. This code ensures valid user input, proper address handling, and smooth interaction between user input (user_interface.c) and data storage (database.c).
+
+```c
+int main(int argc, char *argv[]) 
+{    
+    struct record *start = NULL;
+    char option[10];
+    int len;
+.
+.
+.
+
+if ((strncmp(option, "add", strlen(option)) == 0) && strlen(option) <= 3)
+{
+    char name[25];
+    char address[1000];
+    int accountno = -1, result;
+    char extraletters;
+
+    /* Validate account number */
+    while (accountno <= 0)
+    {
+        printf("\nEnter account number: ");
+        result = scanf("%d%c", &accountno, &extraletters);
+        if (result != 2 || extraletters != '\n' || accountno <= 0)
+        {
+            printf("\nError: Account number must be a positive integer.\n");
+            accountno = -1;
+            while (getchar() != '\n');
+        }
+    }
+
+    /* Get name */
+    printf("Enter name: ");
+    fgets(name, sizeof(name), stdin);
+
+    /* Remove trailing newline from name */
+    int len = strlen(name);
+    if (len > 0 && name[len - 1] == '\n')
+    {
+        name[len - 1] = '\0';
+    }
+
+    /* Collect multi-line address using getaddress() */
+    address[0] = '\0';
+    getaddress(address, 1000);
+
+    /* Call addRecord function */
+    addRecord(&start, accountno, name, address);
+    printf("Record added successfully!\n\n");
+}
+```
+This part ensures that invalid account numbers don’t crash the program and it shows how getaddress() is used to handle multi-line inputs.
+
+### Example Interaction: Adding a New Record
+Below is an example of the program output when a user selects the "add" option to add a new bank record:
+
+<div style="text-align: center;">
+    <img src="../img/BankCode.PNG" alt="Bank Code Screenshot" style="max-width: 40%; border: 2px solid #ddd; border-radius: 8px; padding: 5px;">
+</div> 

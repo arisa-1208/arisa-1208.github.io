@@ -12,11 +12,13 @@ labels:
 summary: "A C-based bank record management system implementing linked lists for dynamic record storage. ICS 212"
 ---
 
+<div style="float: left; margin-right: 15px;">
 <img class="img-fluid" src="../img/banking.webp" style="max-width: 100%; 
                 border-radius: 12px; 
                 padding: 8px; 
                 background-color: white; 
                 box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);">
+</div>
 
 ## Project Overview  
 This project is a **C-based bank record management system** that allows users to **add, search, modify, and delete bank records** stored in a linked list. The system ensures efficient memory usage and provides a user-friendly interface for handling records dynamically. The program operates through a menu-driven interface, allowing users to interact with the database easily.  

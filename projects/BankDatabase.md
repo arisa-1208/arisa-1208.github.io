@@ -9,7 +9,7 @@ labels:
   - C Programming
   - Data Structures
   - File Management
-summary: "A C-based bank record management system implementing linked lists for dynamic record storage."
+summary: "A C-based bank record management system implementing linked lists for dynamic record storage. ICS 212"
 ---
 
 <img class="img-fluid" src="../img/banking.webp">
@@ -173,6 +173,8 @@ Below is an example of the program output when a user selects the "add" option t
 <div style="text-align: center;">
     <img src="../img/BankCode.PNG" alt="Bank Code Screenshot" style="max-width: 70%; border: 2px solid #ddd; border-radius: 8px; padding: 5px;">
 </div> 
+
+
 
 ### My Role & Contributions
 I worked on several key parts of the project, including user-interface functions, input validation, and linked list operations. My main tasks were designing and coding the add, search, modify, delete, and print functions to handle bank records efficiently and keep everything organized.

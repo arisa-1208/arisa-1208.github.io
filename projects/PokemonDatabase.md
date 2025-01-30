@@ -7,185 +7,161 @@ date: 2024
 published: true
 labels:
   - C Programming
-  - Data Structures
-  - File Management
-summary: "A C-based bank record management system implementing linked lists for dynamic record storage. ICS 212"
+  - File Handling
+  - Binary File I/O
+summary: "A Pokémon database system implemented in C, using file I/O operations for structured data storage. ICS 212"
 ---
 
-<img class="img-fluid" src="../img/banking.webp">
+<img class="img-fluid" src="../img/pokemon_database.png" style="max-width: 70%; border: 2px solid #ddd; border-radius: 8px; padding: 5px; margin-bottom: 20px;">
 
 ## Project Overview  
-This project is a **C-based bank record management system** that allows users to **add, search, modify, and delete bank records** stored in a linked list. The system ensures efficient memory usage and provides a user-friendly interface for handling records dynamically. The program operates through a menu-driven interface, allowing users to interact with the database easily.  
+This project is a **Pokémon database system** that allows users to **store and retrieve Pokémon data** (name and level) using **file I/O operations in C**. It focuses on **binary file handling**, ensuring structured data storage that persists between program runs.  
 
-The project focused on fundamental concepts such as **linked lists, dynamic memory allocation, and structured programming**. It also required careful implementation of **input validation and error handling** to ensure smooth execution and data integrity. Debugging was an essential part of development, and special attention was given to identifying memory leaks and handling segmentation faults.  
+The project involved implementing key functions for **writing and reading structured data** using `fwrite()` and `fread()`, ensuring that Pokémon records were saved correctly and retrieved accurately. Testing was conducted using custom test drivers to validate file handling and data integrity.
 
 The final system supports:  
-- Adding a new bank record with an account number, name, and address.  
-- Searching for a record by account number.  
-- Modifying existing records.  
-- Deleting a record from the database.  
-- Printing all stored records.  
+- Writing Pokémon data to a binary file (`writefile` function).  
+- Reading Pokémon data from the file (`readfile` function).  
+- Ensuring structured data storage and retrieval.  
+- Handling errors like missing or corrupted files.  
 
 ---
 
-## Data Structures & Code Implementation 
+##  **Writing and Reading Pokémon Data (`iofunctions.c`)**
 
-### Inserting a Record into the Database 
-The database.c file is responsible for managing the bank records using a linked list. It contains all the core functions that handle data operations, such as adding, finding, modifying, deleting, and printing records. Since the program must store records dynamically, it uses linked lists to manage memory efficiently. Each record is stored in a struct containing the following fields:  
-
-- `accountno` – Unique integer identifier for each bank account.  
-- `name` – Character array to store the account holder’s name.  
-- `address` – Multi-line address stored as a character array.  
-- `next` – Pointer to the next record in the linked list.
-
-The code below is a part of my code where it shows how the new data is added to the database in a specific order so that it prevents duplications. 
+The `writefile` function is responsible for **storing Pokémon records** into a binary file. Each Pokémon has a **name** (stored as a character array) and a **level** (stored as an integer). The function ensures that the data is written in a structured format.
 
 ```c
 /*****************************************************************
 //
-//  Function name: addRecord
+//  Function name: writefile
 //
-//  DESCRIPTION:   Adds a new record to the database in sorted order
-//                while preventing duplicates.
+//  DESCRIPTION:   This function writes the Pokemon data stored 
+//                 in the array to a file. If the file exists, 
+//                 then it will be overwritten.
 //
-//  Parameters:    start (struct record **) : Pointer to the start of the list
-//                accountno (int)          : Account number to add
-//                name (char [])           : Account holder's name
-//                address (char [])        : Account holder's address
+//  Parameters:    pokearray (struct pokemon[]) : array of Pokemon to write
+//                 num (int)                    : number of Pokemon to write
+//                 filename (char[])            : name of the file to write to
 //
-//  Return values: 0 : Success
-//                -1 : Duplicate account number found
+//  Return values:  0 : success
+//                 -1 : error (file could not be opened)
 //
-*****************************************************************/
+****************************************************************/
 
-int addRecord(struct record **start, int accountno, char name[], char address[]) 
-{
-    struct record *temp, *current, *previous = NULL;
+int writefile(struct pokemon pokearray[], int num, char filename[])
+{  
+    /* Open the writefile (file will be overwritten if already exists) */
+    FILE *pokemonFile = fopen(filename, "w");
+    
+    int i = 0;
 
-    temp = (struct record *) malloc(sizeof(struct record));
-
-    if (temp == NULL) 
+    /* Check if file was successfully opened */
+    if (pokemonFile == NULL) 
     {
-        printf("Memory allocation failed.\n");
+        return -1; /* return if file could not be opened */
+    }
+    
+    /* Loop the array of pokemons and write their data to the file */
+    for (i = 0; i < num; i++) 
+    {
+        fprintf(pokemonFile, "%d\n", pokearray[i].level); /* Write the Pokemon's level */
+        fprintf(pokemonFile, "%s\n", pokearray[i].name); /* Write the Pokemon's name */
+    }
+    
+    /* Close the file so that all of the data is written */
+    fclose(pokemonFile);
+    return 0;
+}
+
+```
+The `readfile` function retrieves Pokémon records from a binary file and stores them in an array.
+
+```c
+/*****************************************************************
+//
+//  Function name: readfile
+//
+//  DESCRIPTION:   This function reads the Pokemon data from a file
+//                 and stores it in an array. It stops reading if it 
+//                 reaches the maximum array size or the end of the 
+//                 file. 
+//
+//  Parameters:    pokearray (struct pokemon[]) : array to store Pokemon data
+//                 num (int*)                   : pointer to the number of Pokemon
+//                 filename (char[])            : name of the file to read from
+//
+//  Return values:  0 : success
+//                 -1 : error (file could not be opened)
+//
+****************************************************************/
+
+int readfile(struct pokemon pokearray[], int *num, char filename[])
+{
+    int i = 0; /* Counter to how many pokemons have been read so far */
+
+    /* Open the readfile (read it from an existing file) */
+    FILE *pokemonFile = fopen(filename, "r");
+
+    /* If fopen returns NULL, then the file was unable to open so return -1 */
+    if (pokemonFile == NULL) 
+    {
         return -1;
     }
 
-    temp->accountno = accountno;
-    strcpy(temp->name, name);
-    strcpy(temp->address, address);
-    temp->next = NULL;
-
-    if (*start == NULL) 
+    /* Loop through to read the data from the file. Either read the max number of pokemons or until it reaches the end of the file */
+    while (i < *num && fscanf(pokemonFile, "%d\n", &pokearray[i].level) != EOF && fgets(pokearray[i].name, sizeof(pokearray[i].name), pokemonFile) != NULL) 
     {
-        *start = temp;
-    } 
-    else 
-    {
-        current = *start;
-
-        while (current != NULL && accountno > current->accountno) 
+        /* Remove the newline character from the name, if there is one */
+        if (pokearray[i].name[strlen(pokearray[i].name) - 1] == '\n')
         {
-            previous = current;
-            current = current->next;
+            pokearray[i].name[strlen(pokearray[i].name) - 1] = '\0';
         }
-
-        if (current != NULL && accountno == current->accountno) 
-        {
-            free(temp);
-            return -1;
-        }
-
-        if (previous == NULL) 
-        {
-            temp->next = *start;
-            *start = temp;
-        } 
-        else 
-        {
-            temp->next = previous->next;
-            previous->next = temp;
-        }
+        i++;
     }
+    
+    /* Update the num variable so we can see how many pokemons were read */
+    *num = i;
+    
+    /*Close the file to make sure that all the data is saved and is properly closed */
+    fclose(pokemonFile);
 
     return 0;
 }
 ```
-### Processing User Input for Adding a Record
-The user_interface.c file is responsible for handling all user interactions with the bank database system. It provides a menu-driven interface, allowing users to add, search, modify, delete, and print bank records. This file also ensures input validation to prevent incorrect user input and manages multi-line address input using fgetc().
 
-The code below is an example of how it handles the addition of a new bank record when the user selects "add". It first validates the account number, ensuring it is a positive integer. If the input is invalid, the user is prompted to try again. This code ensures valid user input, proper address handling, and smooth interaction between user input (user_interface.c) and data storage (database.c).
+##  **Example Output**
 
-```c
-int main(int argc, char *argv[]) 
-{    
-    struct record *start = NULL;
-    char option[10];
-    int len;
-.
-.
-.
+Below is an example of how the program writes Pokémon data to a file and retrieves it using `writefile` and `readfile`. The program first stores three Pokémon records and then reads them back, displaying the retrieved data.
 
-if ((strncmp(option, "add", strlen(option)) == 0) && strlen(option) <= 3)
-{
-    char name[25];
-    char address[1000];
-    int accountno = -1, result;
-    char extraletters;
-
-    /* Validate account number */
-    while (accountno <= 0)
-    {
-        printf("\nEnter account number: ");
-        result = scanf("%d%c", &accountno, &extraletters);
-        if (result != 2 || extraletters != '\n' || accountno <= 0)
-        {
-            printf("\nError: Account number must be a positive integer.\n");
-            accountno = -1;
-            while (getchar() != '\n');
-        }
-    }
-
-    /* Get name */
-    printf("Enter name: ");
-    fgets(name, sizeof(name), stdin);
-
-    /* Remove trailing newline from name */
-    int len = strlen(name);
-    if (len > 0 && name[len - 1] == '\n')
-    {
-        name[len - 1] = '\0';
-    }
-
-    /* Collect multi-line address using getaddress() */
-    address[0] = '\0';
-    getaddress(address, 1000);
-
-    /* Call addRecord function */
-    addRecord(&start, accountno, name, address);
-    printf("Record added successfully!\n\n");
-}
 ```
-This part ensures that invalid account numbers don’t crash the program and it shows how getaddress() is used to handle multi-line inputs.
+==== Test Case 1 ====
+Calling writefile with 3 pokemons, filename: 'pokemons1.txt'
+writefile returned: 0
+Successfully wrote 3 pokemons to 'pokemons1.txt'
 
-### Example Interaction: Adding a New Record
-Below is an example of the program output when a user selects the "add" option to add a new bank record:
+Calling readfile to read pokemons from 'pokemons1.txt'
+readfile returned: 0
+Successfully read 3 pokemons from 'pokemons1.txt'
+Pokemon 1 - Level: 19, Name: Pikachu
+Pokemon 2 - Level: 81, Name: Eevee
+Pokemon 3 - Level: 24, Name: Sylveon
 
-<div style="text-align: center;">
-    <img src="../img/BankCode.PNG" alt="Bank Code Screenshot" style="max-width: 70%; border: 2px solid #ddd; border-radius: 8px; padding: 5px; margin-bottom: 20px;">
-</div> 
+==== Test Case 2 ====
+Calling writefile with 3 pokemons, filename: 'pokemons2.txt'
+writefile returned: 0
+Successfully wrote 3 pokemons to 'pokemons2.txt'
 
+Calling readfile to read pokemons from 'pokemons2.txt'
+readfile returned: 0
+Successfully read 3 pokemons from 'pokemons2.txt'
+Pokemon 1 - Level: 150, Name: Skitty
+Pokemon 2 - Level: 220, Name: Happiny
+Pokemon 3 - Level: 100, Name: Jigglypuff
+```
 
+###  **My Role & Contributions**
+My role in this project was to implement the **file I/O functions (`writefile` and `readfile`) in `iofunctions.c`**, ensuring that Pokémon data was written and retrieved correctly. Additionally, I developed **`driver.c`**, a test program that systematically verified file operations by storing sample Pokémon records, reading them back, and checking for errors such as missing or corrupted files. I was responsible for designing the structure of the file storage, handling error cases, and debugging issues related to data persistence and incorrect formatting. To confirm that the program worked as expected, I created test scenarios and documented results in `output.txt`.  
 
-### My Role & Contributions
-I worked on several key parts of the project, including user-interface functions, input validation, and linked list operations. My main tasks were designing and coding the add, search, modify, delete, and print functions to handle bank records efficiently and keep everything organized.
-
-I also made sure memory was allocated and freed properly to avoid issues like memory leaks. Debugging was a big part of my work—I used gdb and print statements to figure out problems like segmentation faults and memory errors. I created input validation to make sure user inputs, especially multi-line addresses, worked without causing errors. I also wrote a test plan (testplan.xlsx) and documentation (summary.txt) to check that the program ran as expected.
-
-Adding a debug mode was one of the more challenging parts. It let users see what was happening behind the scenes, which made troubleshooting easier. Overall, I focused on making the program simple to use, well-organized, and reliable.
-
-### Lessons Learned & Skills Gained
-This project helped me get better at managing linked lists, working with dynamic memory, and debugging in C. I learned a lot about how pointers work and how to handle memory safely to avoid problems like memory leaks.
-
-I also got better at problem-solving and debugging by using gdb to fix issues like segmentation faults. Breaking the project into smaller functions made it easier to debug and test, and creating a test plan helped me catch unexpected behaviors before finishing the program.
-
-Writing documentation showed me how important it is to explain things clearly so others can understand and use the program. Overall, this project gave me confidence in building structured, efficient, and reliable programs in C.
+###  **Lessons Learned & Skills Gained**
+This project strengthened my understanding of **binary file handling in C** and improved my skills in **structured programming and debugging file-related issues**. I learned how to manage structured data efficiently using `fwrite()` and `fread()`, how to handle errors like unreadable files, and how to test file operations with systematic validation. Additionally, I gained experience in writing **modular code**, breaking down functionality into separate files (`iofunctions.c` and `driver.c`), which made the program more organized and easier to maintain. This experience provided me with a deeper understanding of how **real-world applications store and retrieve data persistently**, reinforcing key concepts in file handling and structured programming.

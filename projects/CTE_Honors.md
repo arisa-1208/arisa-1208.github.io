@@ -18,16 +18,25 @@ summary: "Developed a strategic marketing plan to increase vendor participation,
 </div>
 
 ## **📌 Project Overview**
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
-  <img src="../img/noelani craft fair photo.jpg" width="300px" 
-       style="border-radius: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2); flex: 1; min-width: 100px;">
-  <p style="flex: 2; min-width: 250px;">
-    The <b>Noelani Craft & Children’s Fair</b> is an annual fundraiser supporting school programs, faculty, 
-    and facility improvements. My team and I developed a <b>comprehensive marketing plan</b> to boost vendor 
+<img src="../img/noelani craft fair photo.jpg" width="250px" 
+     style="float: left; margin: 0 20px 10px 0; border-radius: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);">
+
+<p>
+    The <b>Noelani Craft & Children’s Fair</b> is an annual fundraiser supporting school programs, faculty, and 
+    facility improvements. My team and I developed a <b>comprehensive marketing plan</b> to boost vendor 
     participation by <b>at least 10%</b>, increase event awareness, and optimize engagement through 
     data-driven strategies.
-  </p>
-</div>
+</p>
+<p>
+    Our strategy focused on <b>vendor engagement, targeted promotions, and pricing adjustments</b> to attract more 
+    participants. We conducted surveys and analyzed data to ensure maximum efficiency in our outreach efforts.
+</p>
+<p>
+    The results showed a <b>66.7% vendor return interest</b>, proving the effectiveness of our approach. 
+    Future recommendations include improving vendor support, enhancing social media campaigns, and offering 
+    early-bird incentives.
+</p>
+
 
 
 

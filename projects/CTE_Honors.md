@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/noelani/noelani-fair.jpg
+image: img/noelani/noelani-fair-cover.jpg
 title: "Noelani Craft & Children’s Fair Marketing Plan"
 date: 2023
 published: true
@@ -9,37 +9,74 @@ labels:
   - Business Management
   - Marketing
   - Event Planning
-summary: "Developed a strategic marketing plan to increase vendor participation and maximize event success."
+summary: "Developed a strategic marketing plan to increase vendor participation, enhance event promotions, and maximize fundraising impact."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/noelani/noelani-event.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/noelani/noelani-market.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/noelani/noelani-promotion.jpg" class="img-thumbnail" >
+  <img width="300px" src="../img/noelani/noelani-event.jpg" class="img-thumbnail" >
+  <img width="300px" src="../img/noelani/noelani-market.jpg" class="img-thumbnail" >
 </div>
 
-### **Overview**
-The **Noelani Craft & Children’s Fair** is an annual fundraiser supporting school programs, faculty, and facilities. My team and I developed a **comprehensive marketing plan** to boost vendor participation by **10%**, using strategic pricing adjustments and social media outreach.
+## **📌 Project Overview**
+The **Noelani Craft & Children’s Fair** is an annual fundraiser supporting school programs, faculty, and facility improvements. My team and I developed a **comprehensive marketing plan** to boost vendor participation by **at least 10%**, increase event awareness, and optimize engagement through data-driven strategies.
 
-### **Marketing Strategy**
-- 📢 **Social Media Campaign:** Instagram, Facebook, and YouTube promotion.
-- 💰 **Vendor Fee Reduction:** Lowered fees to remove participation barriers.
-- 📊 **Survey & Data Analysis:** Identified key motivators and deterrents for vendors.
-- 🎯 **Targeted Outreach:** Focused on parents, profit-seeking vendors, and children’s activity specialists.
+---
 
-### **SWOT Analysis**
+## **🎯 Project Objectives**
+✅ **Increase vendor participation** through strategic outreach and pricing adjustments.  
+✅ **Enhance digital marketing efforts** via social media platforms (Instagram, Facebook, YouTube).  
+✅ **Optimize vendor experience** by reducing barriers and providing targeted incentives.  
+✅ **Leverage data analytics** from past events to improve decision-making.  
+
+---
+
+## **📊 Research & Data Analysis**
+We conducted surveys and market research to identify **key challenges and opportunities** for vendors.  
+Here are some of our key findings:
+
+<div class="text-center p-4">
+  <img width="400px" src="../img/noelani/vendor-statistics.jpg" class="img-thumbnail">
+  <img width="400px" src="../img/noelani/vendor-interest.jpg" class="img-thumbnail">
+</div>
+
+### **Key Insights**
+- **40.9% of surveyed vendors** had attended previous events.
+- **66.7% of vendors** expressed interest in returning next year.
+- **Vendor fees** were cited as the biggest barrier to participation.
+
+---
+
+## **📢 Marketing Strategies**
+### **1️⃣ Social Media Promotion**
+📱 Increased engagement through **targeted ads, digital flyers, and event countdowns** on Instagram, Facebook, and YouTube.  
+📹 Implemented **short-form video content** to reach a broader audience.  
+📈 **Expected Impact:** Higher online visibility & increased vendor/customer participation.  
+
+### **2️⃣ Vendor Fee Adjustments**
+💰 Conducted pricing analysis to **reduce fees by at least 20%**.  
+📌 Optimized cost allocations by reallocating expenses from non-essential vendor perks.  
+📈 **Expected Impact:** Higher vendor turnout & better vendor retention.  
+
+### **3️⃣ Community Outreach**
+🎟️ Partnered with **local businesses** to offer special promotions and raffle prizes (e.g., Xbox Series X, hotel stays).  
+📢 Strengthened vendor partnerships through **early outreach campaigns**.  
+📈 **Expected Impact:** Higher vendor and community engagement.  
+
+---
+
+## **📈 SWOT Analysis**
 | Strengths  | Weaknesses  |
 |------------|------------|
-| Easy vendor registration | Limited vendor perks |
-| Established customer base | Niche target audience |
+| Established community presence | Limited vendor perks |
+| High engagement from families | Niche target audience |
 
 | Opportunities | Threats |
 |--------------|--------|
-| Social media expansion | Competing events |
-| Enhanced vendor support | Vendor availability issues |
-
-### **Results & Next Steps**
-- 📈 **66.7% of vendors** expressed interest in returning next year.
-- 📌 Future strategies: Enhanced digital marketing, early vendor outreach, and optimized event planning.
+| Expanded social media marketing | Competition from other fairs |
+| Flexible pricing strategies | Vendor availability fluctuations |
 
 ---
+
+## **🔍 Evaluation & Next Steps**
+**Final Survey Results:**  
+✔️ **66.7% of vendors** ex

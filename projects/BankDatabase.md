@@ -36,11 +36,16 @@ The system is built using **linked lists** to manage bank records dynamically. E
 - `address` – Multi-line address stored as a character array.  
 - `next` – Pointer to the next record in the linked list.  
 
-### Code Structure  
+## Code Implementation  
+### Adding a New Record  
 ```c
-struct record {
-    int accountno;
-    char name[25];
-    char address[80];
-    struct record *next;
-};
+void addRecord(struct record **start, int accountno, char name[], char address[]) {
+    struct record *newRecord = malloc(sizeof(struct record));
+    if (newRecord != NULL) {
+        newRecord->accountno = accountno;
+        strcpy(newRecord->name, name);
+        strcpy(newRecord->address, address);
+        newRecord->next = *start;
+        *start = newRecord;
+    }
+}

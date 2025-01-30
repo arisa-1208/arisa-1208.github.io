@@ -171,7 +171,7 @@ This part ensures that invalid account numbers don’t crash the program and it 
 Below is an example of the program output when a user selects the "add" option to add a new bank record:
 
 <div style="text-align: center;">
-    <img src="../img/BankCode.PNG" alt="Bank Code Screenshot" style="max-width: 70%; border: 2px solid #ddd; border-radius: 8px; padding: 5px;">
+    <img src="../img/BankCode.PNG" alt="Bank Code Screenshot" style="max-width: 70%; border: 2px solid #ddd; border-radius: 8px; padding: 5px; margin-bottom: 20px;">
 </div> 
 
 

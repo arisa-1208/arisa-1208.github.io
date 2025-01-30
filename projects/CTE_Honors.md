@@ -1,106 +1,86 @@
 ---
 layout: project
 type: project
-image: img/noelani/noelani-fair-cover.jpg
+image: img/noelani/noelani-square.png
 title: "Noelani Craft & Children’s Fair Marketing Plan"
 date: 2023
 published: true
 labels:
-  - Business Management
   - Marketing
-  - Event Planning
-summary: "Developed a strategic marketing plan to increase vendor participation, enhance event promotions, and maximize fundraising impact."
+  - Business Strategy
+  - Data Analysis
+summary: "A strategic marketing plan to increase vendor participation and revenue for the annual Noelani Craft & Children’s Fair."
 ---
 
-<div class="text-center p-4">
-  <img width="300px" src="../img/noelani/noelani-event.jpg" class="img-thumbnail" >
-  <img width="300px" src="../img/noelani/noelani-market.jpg" class="img-thumbnail" >
-</div>
+<img class="img-fluid" src="../img/noelani/noelani-header.png">
 
-## **📌 Project Overview**
+## 📌 Project Overview  
+The **Noelani Craft & Children’s Fair** is an annual fundraising event that supports school programs, including **music, PE, enrichment activities, technology, and facility improvements**. This event relies heavily on vendor participation to generate revenue, but in previous years, vendor engagement was inconsistent due to factors such as **high participation fees, lack of targeted outreach, and competition from other local events**.  
 
-<img src="../img/noelani_craft_fair 2.jpg" width="250px" 
-     style="float: left; margin: 0 20px 10px 0; border-radius: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);">
+This project aimed to **increase vendor participation by at least 10%** for the next fair by implementing **strategic marketing techniques and cost reduction measures**. The two primary focus areas were:  
+1. **Reducing vendor fees** by at least 20% to encourage more small businesses and first-time vendors to participate.  
+2. **Leveraging social media marketing (Instagram, Facebook, YouTube)** to enhance visibility and attract both vendors and attendees.  
 
-<p>
-    The <b>Noelani Craft & Children’s Fair</b> is an annual fundraiser supporting school programs, faculty, and 
-    facility improvements. My team and I developed a <b>comprehensive marketing plan</b> to boost vendor 
-    participation by <b>at least 10%</b>, increase event awareness, and optimize engagement through 
-    data-driven strategies.
-</p>
-<p>
-    Our strategy focused on <b>vendor engagement, targeted promotions, and pricing adjustments</b> to attract more 
-    participants. We conducted surveys and analyzed data to ensure maximum efficiency in our outreach efforts.
-</p>
-<p>
-    The results showed a <b>66.7% vendor return interest</b>, proving the effectiveness of our approach. 
-    Future recommendations include improving vendor support, enhancing social media campaigns, and offering 
-    early-bird incentives.
-</p>
-
-
-
-
-
-
+By executing these initiatives, we aimed to **maximize fundraising potential, improve vendor retention, and increase overall community engagement**.  
 
 ---
 
-## **🎯 Project Objectives**
-✅ **Increase vendor participation** through strategic outreach and pricing adjustments.  
-✅ **Enhance digital marketing efforts** via social media platforms (Instagram, Facebook, YouTube).  
-✅ **Optimize vendor experience** by reducing barriers and providing targeted incentives.  
-✅ **Leverage data analytics** from past events to improve decision-making.  
+## 📊 Data & Market Research  
+
+To identify key challenges affecting vendor participation, we conducted **vendor surveys** and analyzed past event data.  
+
+### **Vendor Attendance Insights**
+<img class="img-fluid" src="../img/noelani/vendor-attendance-chart.png">
+
+📌 **Survey Insights on Vendor Attendance**  
+- **40.9% of surveyed vendors** had attended the fair before.  
+- Many vendors **expressed concerns about pricing**, with some citing that participation fees were too high for small businesses.  
+
+### **Impact of Vendor Fees on Participation**
+<img class="img-fluid" src="../img/noelani/vendor-fees-chart.png">
+
+📌 **Findings on Vendor Fees**  
+- Our analysis showed that **reducing vendor fees by at least 20%** would significantly increase participation.  
+- Vendors expressed interest in **digital outreach efforts** to attract more customers.  
+
+The research revealed that **price sensitivity was a major deterrent for vendors**, and adjusting participation fees could significantly improve retention and engagement. Additionally, many vendors emphasized the importance of **more effective marketing efforts to increase customer turnout**.  
 
 ---
 
-## **📊 Research & Data Analysis**
-We conducted surveys and market research to identify **key challenges and opportunities** for vendors.  
-Here are some of our key findings:
+## 💡 **SWOT Analysis (Strengths, Weaknesses, Opportunities, Threats)**  
 
-<div class="text-center p-4">
-  <img width="400px" src="../img/noelani/vendor-statistics.jpg" class="img-thumbnail">
-  <img width="400px" src="../img/noelani/vendor-interest.jpg" class="img-thumbnail">
-</div>
+| **Strengths** | **Weaknesses** |  
+|--------------|---------------|  
+| Open to all vendors | Limited vendor support (e.g., no free lunch) |  
+| Strong community engagement | Vendor audience limited to children & families |  
 
-### **Key Insights**
-- **40.9% of surveyed vendors** had attended previous events.
-- **66.7% of vendors** expressed interest in returning next year.
-- **Vendor fees** were cited as the biggest barrier to participation.
+| **Opportunities** | **Threats** |  
+|-----------------|-----------|  
+| Social media marketing can expand reach | Vendors have alternative events |  
+| More vendors = greater fundraising | COVID-19 affected vendor availability |  
 
----
-
-## **📢 Marketing Strategies**
-### **1️⃣ Social Media Promotion**
-📱 Increased engagement through **targeted ads, digital flyers, and event countdowns** on Instagram, Facebook, and YouTube.  
-📹 Implemented **short-form video content** to reach a broader audience.  
-📈 **Expected Impact:** Higher online visibility & increased vendor/customer participation.  
-
-### **2️⃣ Vendor Fee Adjustments**
-💰 Conducted pricing analysis to **reduce fees by at least 20%**.  
-📌 Optimized cost allocations by reallocating expenses from non-essential vendor perks.  
-📈 **Expected Impact:** Higher vendor turnout & better vendor retention.  
-
-### **3️⃣ Community Outreach**
-🎟️ Partnered with **local businesses** to offer special promotions and raffle prizes (e.g., Xbox Series X, hotel stays).  
-📢 Strengthened vendor partnerships through **early outreach campaigns**.  
-📈 **Expected Impact:** Higher vendor and community engagement.  
+The SWOT analysis highlighted key areas for improvement. The event’s **strong community engagement** was a major strength, but the **limited financial support for vendors and competition from other events** posed challenges. This informed our approach to marketing and vendor outreach.  
 
 ---
 
-## **📈 SWOT Analysis**
-| Strengths  | Weaknesses  |
-|------------|------------|
-| Established community presence | Limited vendor perks |
-| High engagement from families | Niche target audience |
+## 👩‍💻 **My Role & Contributions**  
 
-| Opportunities | Threats |
-|--------------|--------|
-| Expanded social media marketing | Competition from other fairs |
-| Flexible pricing strategies | Vendor availability fluctuations |
+I played a key role in **leading market research and vendor analysis** to identify the main challenges preventing vendor participation. My contributions included:  
+✅ **Market research & vendor surveys** – Conducted surveys to analyze vendor concerns and participation trends.  
+✅ **Vendor fee strategy** – Developed a pricing model that made participation more accessible to small businesses and first-time vendors.  
+✅ **Social media marketing plan** – Designed and implemented digital advertisements to expand the event’s outreach.  
+✅ **Evaluation & analysis** – Measured the effectiveness of our strategies through post-event surveys and data analysis.  
+
+Additionally, I contributed to the **visual design of digital advertisements and social media posts** to ensure a cohesive and engaging promotional campaign. I also played a key role in **the evaluation phase**, helping to analyze survey responses post-event to measure the success of our strategies.  
 
 ---
 
-## **🔍 Evaluation & Next Steps**
-**Final Survey Results:**  
-✔️ **66.7% of vendors** ex
+## 🎓 **Lessons Learned & Skills Gained**  
+
+This project provided me with valuable insights into **marketing strategy, consumer behavior, and event planning**. I learned how to **conduct and analyze surveys**, extract meaningful trends, and use data to drive decision-making. The experience also helped me refine my skills in **strategic communication**, as I had to present our findings and recommendations in a way that was persuasive and actionable.  
+
+Additionally, this project strengthened my understanding of **social media marketing and digital outreach techniques**. I gained hands-on experience in designing promotional materials, creating engaging online content, and utilizing analytics to measure the impact of advertising efforts.  
+
+Beyond technical skills, I also improved in **collaboration and leadership**, as I worked closely with other stakeholders, including school representatives and potential vendors, to align our marketing strategies with their needs. Learning to balance different perspectives and adapt strategies based on real-world feedback was a crucial takeaway from this experience.  
+
+

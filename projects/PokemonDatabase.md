@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/pokemonlevel.jpeg
+image: img/pikachu.webp
 title: "Pokémon Database: File I/O Implementation in C"
 date: 2024
 published: true

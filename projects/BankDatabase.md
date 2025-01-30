@@ -12,7 +12,7 @@ labels:
 summary: "A C-based bank record management system implementing linked lists for dynamic record storage. ICS 212"
 ---
 
-<div style="float: left; margin-right: 15px;">
+<div style="float: left; margin-right: 0px;">
 <img class="img-fluid" src="../img/banking.webp" style="max-width: 40%; 
                 border-radius: 12px; 
                 padding: 8px; 

@@ -18,37 +18,28 @@ summary: "Developed a strategic marketing plan to increase vendor participation,
 </div>
 
 ## **📌 Project Overview**
-<style>
-  @media (max-width: 600px) {
-    img {
-      float: none;
-      display: block;
-      margin: 0 auto 15px auto;
-    }
-    p {
-      text-align: justify;
-    }
-  }
-</style>
 
 <img src="../img/noelani_craft_fair 2.jpg" 
-     style="float: left; margin: 0 15px 10px 0; width: 100%; max-width: 250px; border-radius: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);">
+     style="float: left; margin: 0 20px 10px 0; width: 100%; max-width: 250px; border-radius: 15px; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);">
 
-<p>
-  The <b>Noelani Craft & Children’s Fair</b> is an annual fundraiser supporting school programs, faculty, 
-  and facility improvements. My team and I developed a <b>comprehensive marketing plan</b> to boost vendor 
-  participation by <b>at least 10%</b>, increase event awareness, and optimize engagement through 
-  data-driven strategies.
-</p>
-<p>
-    Our strategy focused on <b>vendor engagement, targeted promotions, and pricing adjustments</b> to attract more 
-    participants. We conducted surveys and analyzed data to ensure maximum efficiency in our outreach efforts.
-</p>
-<p>
-    The results showed a <b>66.7% vendor return interest</b>, proving the effectiveness of our approach. 
-    Future recommendations include improving vendor support, enhancing social media campaigns, and offering 
-    early-bird incentives.
-</p>
+<div style="overflow: auto;">
+  <p>
+    The <b>Noelani Craft & Children’s Fair</b> is an annual fundraiser supporting school programs, faculty, 
+    and facility improvements. My team and I developed a <b>comprehensive marketing plan</b> to boost vendor 
+    participation by <b>at least 10%</b>, increase event awareness, and optimize engagement through 
+    data-driven strategies.
+  </p>
+  <p>
+      Our strategy focused on <b>vendor engagement, targeted promotions, and pricing adjustments</b> to attract more 
+      participants. We conducted surveys and analyzed data to ensure maximum efficiency in our outreach efforts.
+  </p>
+  <p>
+      The results showed a <b>66.7% vendor return interest</b>, proving the effectiveness of our approach. 
+      Future recommendations include improving vendor support, enhancing social media campaigns, and offering 
+      early-bird incentives.
+  </p>
+</div>
+
 
 
 

@@ -12,7 +12,7 @@ labels:
 summary: "A Pokémon database system implemented in C, using file I/O operations for structured data storage. ICS 212"
 ---
 
-<img class="img-fluid" src="../img/pikachu.webp" style="max-width: 70%; 
+<img class="img-fluid" src="../img/pikachu.webp" style="max-width: 100%; 
                 border-radius: 12px; 
                 padding: 8px; 
                 background-color: white; 

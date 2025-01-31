@@ -51,3 +51,4 @@ In conclusion, I now better understand how significant it is to create well-stru
 
 Plus, asking “smart” questions isn’t only about getting help, but also about becoming a better problem solver that can consider things from many different aspects. 
 
+*This essay was reviewed using AI(ChatGPT) for grammar checking to ensure and correctness and improve readability.*

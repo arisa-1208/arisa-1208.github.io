@@ -21,61 +21,45 @@ summary: "A strategic marketing plan to increase vendor participation and revenu
 ## Project Overview  
 The Noelani Craft & Children’s Fair is an annual fundraising event that supports school programs, including music, PE, enrichment activities, technology, and facility improvements. The event relies heavily on vendor participation to generate revenue, but in previous years, vendor engagement was inconsistent due to factors such as high participation fees, lack of targeted outreach, and competition from other local events.  
 
-This project aimed to increase vendor participation by at least 10% for the next fair by implementing strategic marketing techniques and cost reduction measures. The primary strategies focused on two key areas: reducing vendor fees and leveraging social media marketing. By lowering vendor fees by at least 20%, we sought to remove financial barriers and encourage greater participation from small businesses and first-time vendors. Additionally, we focused on utilizing social media platforms such as Instagram, Facebook, and YouTube to enhance visibility and attract a larger audience of vendors and attendees.  
+The objective of this project is to increase vendor participation by at least 10% for the next fair through strategic marketing techniques and cost reduction measures. The two major strategies in this project will involve lowering vendor fees and using social media marketing. Lowering the vendor fees by at least 20% will remove any financial barriers that deter small businesses and first-time vendors from participating. Moreover, we make very conscious and effective use of social media on Instagram, Facebook, and YouTube for creating awareness and capturing more prominent and larger audiences of both vendors and attendees.
 
-By executing these initiatives, the goal was to maximize vendor turnout, increase fundraising potential, and enhance overall community engagement. The success of the project was measured through vendor surveys, attendance numbers, and engagement metrics from our digital marketing efforts.  
+These put together serve to ensure maximum possibility for increased vendors, fundraising opportunities, and community involvement. This project's outcome would be measured by vendor surveys, attendance, and analytics from our digital marketing efforts.
 
 ---
 
 ## Data & Market Research  
 
-To better understand the challenges affecting vendor participation, we conducted vendor surveys and analyzed past event data. The survey responses provided insight into factors such as pricing concerns, promotional effectiveness, and vendor expectations for participation.  
+To further and better understand the challenges in vendor participation, some vendor surveys were conducted to analyze past event data. The responses provided a good insight into key factors related to pricing and promotional effectiveness for understanding vendor expectations for participation in the events.
 
 ### Vendor Attendance Insights  
 <img class="img-fluid" src="../img/fairdata.png">  
 
-Survey results showed that only 40.9% of vendors who responded had attended the fair before. Many vendors expressed concerns about pricing, with some citing that participation fees were too high for small businesses. In addition, vendors were looking for more targeted promotional efforts to increase customer turnout.  
+Survey results indicated that only 40.9% of the responding vendors had visited the fair previously. Most vendors mentioned concerns about the pricing, saying that participation fees were a little too high for a small business to afford. Additionally, vendors were hoping for more targeted promotional efforts to increase customer turnout. 
 
 ### Impact of Vendor Fees on Participation  
 
-One of the most significant findings was the impact of vendor fees on participation rates. The pricing analysis showed that reducing vendor fees by at least 20% would significantly increase participation. Some vendors had to pay as much as $500 to attend similar events, while others only paid around $90. The discrepancy in fees made it clear that a more flexible pricing model could make participation more accessible and attract a more diverse range of vendors.  
+The most striking of these was the effect of vendor fees on participation rates. Pricing analysis indicated that a reduction in vendor fees by at least 20% would significantly increase participation. Some vendors were required to pay upwards of $500 to attend similar events, while others paid approximately $90. The difference in fees showed immediately that some other, more flexible pricing might allow for inclusion and attract at least a wider range of different vendors. 
 
-Our analysis also showed that many vendors were interested in digital outreach efforts to drive customer traffic. Informative digital posters and promotional videos were identified as more effective than traditional flyers, as they reached a larger audience and engaged potential attendees more effectively.  
-
----
-
-## SWOT Analysis  
-
-| Strengths | Weaknesses |  
-|-----------|-----------|  
-| Open to all vendors | Limited vendor support (e.g., no free lunch) |  
-| Strong community engagement | Vendor audience limited to children & families |  
-
-| Opportunities | Threats |  
-|-------------|---------|  
-| Social media marketing can expand reach | Vendors have alternative events |  
-| More vendors = greater fundraising | COVID-19 affected vendor availability |  
-
-The SWOT analysis provided further clarity on the event's strengths and areas for improvement. While the strong community engagement and open vendor policy were key advantages, the limited financial support for vendors and competition from other events were notable challenges. These findings helped shape the final recommendations for vendor engagement and marketing strategies.  
+Our analysis also indicated that most of the vendors expressed interest in digital outreach effort in order to drive customer traffic; for instance, informative digital posters and promotional videos work better compared to traditional flyers because they reach more audiences and are likely to capture the attention of prospective attendees more.
 
 ---
 
 ## My Role & Contributions  
 
-I played a key role in leading the market research and vendor analysis to identify the main challenges preventing vendor participation. My responsibilities included designing and distributing vendor surveys, analyzing participation trends, and developing strategies to address vendor concerns. Based on the survey findings, I proposed a pricing model that reduced financial barriers while ensuring the event remained profitable.  
+I led the market research and analysis of vendors to identify the key challenges that prevented the vendors from attending the fair. My responsibilities included designing and distributing vendor surveys, analyzing trends in participation, and developing strategies to address concerns from vendors. From the results of the survey, I came up with a pricing model that would reduce the financial barriers at a reasonable, yet profitable, level for the event.
 
-I also contributed to the development of the event's digital marketing strategy. This involved creating and implementing a social media campaign to attract vendors and increase overall awareness of the fair. I designed digital advertisements, created content tailored for different social media platforms, and worked on a plan to track engagement metrics to measure the effectiveness of the campaign.  
+I also worked out the digital marketing strategy for the event. It included designing and implementing a social media campaign aimed at attracting vendors and raising general awareness about the fair. This involved designing the digital ads, creating multiple contents for each social media platform such as Instagram and Facebook, and developing a plan to track the engagements of each platforms in order to find out the effectiveness of the campaign.
 
-Additionally, I participated in the evaluation phase of the project. This involved analyzing post-event survey responses and comparing vendor turnout to previous years to assess the success of our initiatives. Through this process, I helped identify areas for future improvement, including optimizing vendor communication and refining digital marketing efforts.  
+Additionally, I participated in the evaluation phase of the project. This involved me and my peers to analyze post-event survey responses and comparing vendor turnout to previous years to assess the success of our initiatives. Through these steps, I helped identify areas where we need to improve for future fairs buy considering vendor's voices and utilizing digital marketing efforts.
 
 ---
 
 ## Lessons Learned & Skills Gained  
 
-This project provided me with valuable insights into marketing strategy, consumer behavior, and event planning. I learned how to conduct and analyze surveys, extract meaningful trends, and use data to drive decision-making. The experience also helped me refine my skills in strategic communication, as I had to present our findings and recommendations in a way that was persuasive and actionable.  
+This project helped me gain a deeper insight into marketing strategy, consumer behavior, and event planning. I understood how to conduct and interpret a survey, find meaningful trends, and utilize data in decision-making. I also utilized my skill in strategic communications, having to present our report and recommendations in a persuasive and actionable format to be able to convince others of our research.
 
-Beyond data analysis, this project strengthened my understanding of social media marketing and digital outreach techniques. I gained hands-on experience in designing promotional materials, creating engaging online content, and utilizing analytics to measure the impact of advertising efforts. The ability to track social media performance and adjust strategies based on engagement metrics was an important skill I developed through this experience.  
+Apart from analysis, this project helped me gain a deeper understanding of social media marketing and social outreach techniques. I gained hands-on experience in producing promotional materials, crafting effective web content, and utilizing analysis to track advertisement effectiveness. Having the ability to track social performance and make adjustments in terms of engagement statistics was a critical skill I gained through this exercise.
 
-Additionally, this project improved my collaboration and leadership skills. Working with event organizers, vendors, and school representatives required me to balance different perspectives and align marketing strategies with the needs of multiple stakeholders. Learning to adapt strategies based on real-world feedback was a crucial takeaway from this project.  
+Lastly, this was my very first big Business related project where I develop my collaboration and leadership skills. Negotiating with event coordinators, vendors, and school representatives involved balancing competing perspectives and reconciling marketing strategies with competing sets of requirements. Learning to make accommodations in terms of real-life feedback was a critical lesson I derived out of this exercise.
 
 ---

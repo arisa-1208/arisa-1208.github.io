@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/IMG_5390.heic
+image: img/IMG_5390.jpeg
 title: "Pokémon Database: File I/O Implementation in C"
 date: 2024
 published: true

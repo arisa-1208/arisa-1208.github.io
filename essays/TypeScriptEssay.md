@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Interest In Coding and Now Learning TypeScript."
+title: "Interest In Coding and Now Learning TypeScript"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-23
 published: true

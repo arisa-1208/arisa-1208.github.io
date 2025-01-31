@@ -43,3 +43,4 @@ So far, learning TypeScript has been quite interesting, just as how I felt when 
  
 As for this new style of class, I think I will be enjoying it as the semester goes by and I honestly can’t wait for more projects to come!
 
+*This essay was reviewed using AI(ChatGPT) for grammar checking to ensure and correctness and improve readability.*

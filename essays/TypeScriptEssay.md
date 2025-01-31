@@ -12,7 +12,7 @@ labels:
   - C
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/smartbrain.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/Typescript.png">
 
 Before learning TypeScript, my programming experience was primarily with JavaScript and C. I attended my first real programming class two years ago in ICS 111, where I was introduced to coding. The first couple of weeks were surprisingly fun, and it was nothing like I had expected.
 

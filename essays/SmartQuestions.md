@@ -11,7 +11,7 @@ labels:
   - Smart vs. Not Smart
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/smartbrain.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/smartbrain (1).png">
 
 I’m sure we have all at least once come across these types of questions such as: “How do I code this” or “What part of my code do I need to fix in order to get the error to go away”. To be honest, I might’ve been asking these “not so smart” questions whenever I needed help or if I was lost. But I’ve realized over the years that such vague questions will never help me get to the solution that I need in order to fix that issue, and especially after reading that essay that was written by Eric Raymond called “How to Ask Questions the Smart Way”. In short, he has helped me understand further that good questions lead to better, faster answers. On the other hand, bad questions lead to frustration, confusion, or even no response. His essay analyzes two StackOverFlow questions, one that follows Raymond’s principles and one that does not, to illustrate how asking "smart" questions leads to more effective responses.
 

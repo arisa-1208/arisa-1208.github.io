@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/noelani/noelani-square.png
+image: img/noelani_craft_fair 2.jpg
 title: "Noelani Craft & Children’s Fair Marketing Plan"
 date: 2023
 published: true
@@ -12,7 +12,11 @@ labels:
 summary: "A strategic marketing plan to increase vendor participation and revenue for the annual Noelani Craft & Children’s Fair."
 ---
 
-<img class="img-fluid" src="../img/noelani/noelani-header.png">
+<img class="img-fluid" src="../img/fairphoto.jpg" style="max-width: 75%; 
+                border-radius: 12px; 
+                padding: 8px; 
+                background-color: white; 
+                box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);">
 
 ## Project Overview  
 The Noelani Craft & Children’s Fair is an annual fundraising event that supports school programs, including music, PE, enrichment activities, technology, and facility improvements. The event relies heavily on vendor participation to generate revenue, but in previous years, vendor engagement was inconsistent due to factors such as high participation fees, lack of targeted outreach, and competition from other local events.  
@@ -28,12 +32,11 @@ By executing these initiatives, the goal was to maximize vendor turnout, increas
 To better understand the challenges affecting vendor participation, we conducted vendor surveys and analyzed past event data. The survey responses provided insight into factors such as pricing concerns, promotional effectiveness, and vendor expectations for participation.  
 
 ### Vendor Attendance Insights  
-<img class="img-fluid" src="../img/noelani/vendor-attendance-chart.png">  
+<img class="img-fluid" src="../img/fairdata.png">  
 
 Survey results showed that only 40.9% of vendors who responded had attended the fair before. Many vendors expressed concerns about pricing, with some citing that participation fees were too high for small businesses. In addition, vendors were looking for more targeted promotional efforts to increase customer turnout.  
 
 ### Impact of Vendor Fees on Participation  
-<img class="img-fluid" src="../img/noelani/vendor-fees-chart.png">  
 
 One of the most significant findings was the impact of vendor fees on participation rates. The pricing analysis showed that reducing vendor fees by at least 20% would significantly increase participation. Some vendors had to pay as much as $500 to attend similar events, while others only paid around $90. The discrepancy in fees made it clear that a more flexible pricing model could make participation more accessible and attract a more diverse range of vendors.  
 

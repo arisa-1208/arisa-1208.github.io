@@ -16,7 +16,7 @@ labels:
 
 Before learning TypeScript, my programming experience was primarily with JavaScript and C. I attended my first real programming class two years ago in ICS 111, where I was introduced to coding. The first couple of weeks were surprisingly fun, and it was nothing like I had expected.
 
-Despite my love for technology—especially Apple, my favorite company—I never considered majoring in Computer Science during my early high school years… until my mind changed in the summer of 2021 when I joined the GirlsWhoCode Summer Immersion Program. Through that experience with my fellow friends, I discovered how programming can be used to build real-world applications, which led me to become interested in learning more.
+Despite my love for technology—especially Apple, my favorite company—I never considered majoring in Computer Science during my early high school years… until my mind changed in the summer of 2022 when I joined the GirlsWhoCode Summer Immersion Program. Through that experience with my fellow friends, I discovered how programming can be used to build real-world applications, which led me to become interested in learning more.
 
 Fast forward to today, I have worked with both JavaScript and C, which gave me experience with two quite different languages. JavaScript felt flexible but sometimes unpredictable (which I seem to like better), while C taught me about strict typing and memory management. Although C really impressed me in terms of performance and efficiency, the attention to detail with the language, its complexity and less friendliness, made C less forgiving. Now this semester has come around where I am learning about TypeScript, which I feel is like a blend of both worlds. 
 

@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/noelani_craft_fair 2.jpg
+image: img/fairphoto.jpg
 title: "Noelani Craft & Children’s Fair Marketing Plan"
 date: 2023
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "A strategic marketing plan to increase vendor participation and revenue for the annual Noelani Craft & Children’s Fair."
 ---
 
-<img class="img-fluid" src="../img/fairphoto.jpg" style="max-width: 75%; 
+<img class="img-fluid" src="../img/noelani_craft_fair 2.jpg" style="max-width: 75%; 
                 border-radius: 12px; 
                 padding: 8px; 
                 background-color: white; 

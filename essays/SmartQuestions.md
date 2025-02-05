@@ -47,8 +47,8 @@ Comparing these two questions and other ones as well, I was able to see true dif
 
 ## Overall
 
-In conclusion, I now better understand how significant it is to create well-structured and framed questions in order for us to receive quick and relevant responses and for the others to find our questions and take their time to help us with what we are struggling with. Through the principles introduced by Eric Raymond, software engineers and coders in general will grow to be better communicators which can help fellow programmers out. 
+In conclusion, I now better understand how significant and important it is to create well-structured and framed questions in order for us to receive quick and relevant responses. Then not only that but also for the others to find our questions and have them take their time to help us with what we are struggling with. Through the principles introduced by Eric Raymond, software engineers and coders in general will grow to be better communicators which can help fellow programmers out. 
 
-Plus, asking “smart” questions isn’t only about getting help, but also about becoming a better problem solver that can consider things from many different aspects. 
+Plus, asking “smart” questions isn’t only about getting help, but it's also about becoming a better problem solver in order for us to be able to consider things from many different aspects. 
 
 *This essay was reviewed using AI(ChatGPT) for grammar checking to ensure and correctness and improve readability.*

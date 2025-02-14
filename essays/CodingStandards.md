@@ -13,10 +13,10 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/IMG_5643.jpg">
 
+&nbsp; 
+
 When people talk about “coding standards,” we usually think of the small annoying details and rules that come along with it—tabs and spaces, where to put those curly braces, and how to name each variable. Well these things will keep our code more consistent, but coding standards are way more than that. They define how we write, read, and interact with code. Above it all, they can actually help you get better at programming by making us remember the best practices without even realizing it. 
 
-&nbsp;  
-&nbsp;  
 &nbsp; 
 
 ## Why Coding Standards Matter

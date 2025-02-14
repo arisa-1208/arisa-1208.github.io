@@ -15,6 +15,12 @@ labels:
 
 When people talk about “coding standards,” we usually think of the small annoying details and rules that come along with it—tabs and spaces, where to put those curly braces, and how to name each variable. Well these things will keep our code more consistent, but coding standards are way more than that. They define how we write, read, and interact with code. Above it all, they can actually help you get better at programming by making us remember the best practices without even realizing it. 
 
+
+
+
+
+
+
 ## Why Coding Standards Matter
 
 A good coding standard isn't merely about nice looking code—it's about readable, maintainable, and less buggy code. When working on large projects, if everyone writes code the same way, it can really make a huge difference. But if not, debugging becomes a total nightmare since that’s what coding is all about. I mean just imagine yourself jumping into a project where each programmer has his or her own personal style—entirely free-form and helter-skelter. I’m sure it would be a chaotic mess, and I’d immediately regret signing up for it. 

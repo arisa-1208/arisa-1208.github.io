@@ -11,7 +11,7 @@ labels:
   - Networking
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/techmindsmeet.HEIC">
+<img width="200px" class="rounded float-start pe-4" src="../img/techmindsmeet.jpg">
 
 ## A Unique Networking Experience
 

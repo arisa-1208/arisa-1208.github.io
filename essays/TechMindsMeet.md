@@ -11,9 +11,8 @@ labels:
   - Networking
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/IMG_5643.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/techmindsmeet.HEIC">
 
-&nbsp; 
 ## A Unique Networking Experience
 
 Attending the Tech Minds Meetup was an eye-opening experience that gave me the chance to network with software engineers, product managers, and tech professionals from local and mainland companies. The event was set up in a format where we rotate between different professionals every 15 minutes. It felt a little like a blind date, but instead of personal conenctions, we were making professional ones. 

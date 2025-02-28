@@ -89,7 +89,7 @@ For businesses and professionals, this stability means fewer hassles. The same p
 
 My personal experience with Bootstrap became clear during a challenging project to recreate the Tiffany & Co. website. At first, I was worried about the brand's sophisticated design, expecting weeks of detailed CSS work to capture its elegant look and subtle interactions. But the magical Bootstrap 5 made this intimidating task manageable. The grid system helped me recreate Tiffany's perfectly aligned product displays. Ready-made components sped up development of the navigation, product cards, and image galleries. Most surprisingly, Bootstrap's helper classes let me make quick styling adjustments without writing a lot of custom CSS.
 
-Take a look at the two images below!
+Take a look at the two screenshots below!
 
 <p align="center">
   <img src="../img/arisa's origi.png" width="45%" alt="Arisa's">

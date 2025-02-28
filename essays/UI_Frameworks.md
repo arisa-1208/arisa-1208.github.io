@@ -94,15 +94,8 @@ But if you guessed it correctly, the picture in the left is the homepage that I 
 
 <p align="center">
   <img src="../img/arisa's origi.png" width="45%" alt="Arisa's">
-  <img src="../img/Original Tiffany&Co..png" width="45%" alt="Original">
+  <img src="../img/original tiffany.png" width="45%" alt="Original">
 </p>
-
-<img class="img-fluid" src="../img/Arisa's Tiffany&Co..png" style="max-width: 75%; 
-                border-radius: 12px; 
-                padding: 8px; 
-                background-color: white; 
-                box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);">
-
 
 The project wasn't just successful because it looked good—the Bootstrap implementation worked perfectly on different screen sizes, keeping the brand's premium feel across all devices. What might have required hundreds of lines of custom CSS and extensive testing was accomplished efficiently with Bootstrap's well-designed components and helpers.  I’m actually so impressed with how closely I was able to recreate the webpage!
 

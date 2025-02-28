@@ -89,7 +89,14 @@ For businesses and professionals, this stability means fewer hassles. The same p
 
 My personal experience with Bootstrap became clear during a challenging project to recreate the Tiffany & Co. website. At first, I was worried about the brand's sophisticated design, expecting weeks of detailed CSS work to capture its elegant look and subtle interactions. But the magical Bootstrap 5 made this intimidating task manageable. The grid system helped me recreate Tiffany's perfectly aligned product displays. Ready-made components sped up development of the navigation, product cards, and image galleries. Most surprisingly, Bootstrap's helper classes let me make quick styling adjustments without writing a lot of custom CSS.
 
-The project wasn't just successful because it looked good—the Bootstrap implementation worked perfectly on different screen sizes, keeping the brand's premium feel across all devices. What might have required hundreds of lines of custom CSS and extensive testing was accomplished efficiently with Bootstrap's well-designed components and helpers.  I’m actually so impressed with how closely I was able to recreate the webpage! 
+<p align="center">
+  <img src="img/Arisa's Tiffany&Co..png" width="45%" alt="Image 1">
+  <img src="img/Original Tiffany&Co..png" width="45%" alt="Image 2">
+</p>
+
+
+
+The project wasn't just successful because it looked good—the Bootstrap implementation worked perfectly on different screen sizes, keeping the brand's premium feel across all devices. What might have required hundreds of lines of custom CSS and extensive testing was accomplished efficiently with Bootstrap's well-designed components and helpers.  I’m actually so impressed with how closely I was able to recreate the webpage!
 
 ### Making Bootstrap Look Unique
 

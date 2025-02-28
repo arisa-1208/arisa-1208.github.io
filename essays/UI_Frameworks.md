@@ -93,7 +93,7 @@ Haha, I bet you don't even realize which one is my work!
 But if you guessed it correctly, the picture in the left is the homepage that I have recreated using Bootstrap and the right is the original real homepage of Tiffany's.
 
 <p align="center">
-  <img src="../img/Arisa's Tiffany&Co..png" width="45%" alt="Arisa's">
+  <img src="../img/arisa's origi.png" width="45%" alt="Arisa's">
   <img src="../img/Original Tiffany&Co..png" width="45%" alt="Original">
 </p>
 

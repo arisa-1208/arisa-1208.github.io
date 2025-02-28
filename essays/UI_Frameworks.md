@@ -92,12 +92,12 @@ My personal experience with Bootstrap became clear during a challenging project 
 Take a look at the two screenshots below!
 
 <p align="center">
-  <img src="../img/arisa's origi.png" width="45%" alt="Arisa's">
   <img src="../img/original tiffany.png" width="45%" alt="Original">
+  <img src="../img/arisa's origi.png" width="45%" alt="Arisa's">
 </p>
 
 Haha, I bet you can’t even tell the difference between the two! 
-But if you guessed correctly, the image on the left is the homepage I recreated using Bootstrap, and the one on the right is the original Tiffany & Co. homepage.
+But if you guessed correctly, the image on the left is the original Tiffany & Co. homepage, and the one on the right is the homepage I recreated using Bootstrap.
 
 The project wasn't just successful because it looked good—the Bootstrap implementation worked perfectly on different screen sizes, keeping the brand's premium feel across all devices. What might have required hundreds of lines of custom CSS and extensive testing was accomplished efficiently with Bootstrap's well-designed components and helpers.  I’m actually so impressed with how closely I was able to recreate the webpage!
 

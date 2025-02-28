@@ -13,12 +13,12 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/web-development-illustration.png">
 
-## A New Way of Creating the Website That You Imagine
+### A New Way of Creating the Website That You Imagine
 
 We've all been there—staring at a blank screen, ready to build a website from scratch, and dreading all the coding ahead. Making each part by hand—navigation bars, layouts that work on phones and computers, form styles—takes forever and can be frustrating. This is where Bootstrap 5 changes everything. Instead of fighting with CSS problems and responsive designs, Bootstrap gives you ready-made tools that make the whole process easier. Many people ask if learning a UI framework is worth the effort. Based on my experience, the answer is definitely yes. This essay shows why Bootstrap 5 is a must-have skill for web developers, how it speeds up your work, and why its benefits are worth the time it takes to learn.
 
 
-## What Is Bootstrap 5 and Why It Matters
+### What Is Bootstrap 5 and Why It Matters
 
 Bootstrap 5 is more than just a collection of pre-made designs—it's a complete toolkit that helps developers create professional websites quickly. It comes with ready-to-use parts like navigation menus, image sliders, and form elements, all designed to work well across different browsers.
 

@@ -18,7 +18,7 @@ Angela Joy Almeron, Sylvia Arjona, Arisa Nakai, & Jaimee Yokoyama
 
 ## Overview
 
-**Problem:**
+**Problem:**   
 College students often struggle to balance academic responsibilities, part-time work, extracurricular activities, and personal life. While tools like **Google Calendar** provide general scheduling platforms, they lack personalized features that cater to individual academic goals and preferences. Other platforms, such as **Notion**, require extensive customization, making them difficult for new users to adopt effectively. Many students aren’t sure how to allocate their study hours efficiently, especially when juggling multiple courses with varying workloads.
 
 **Solution:**  

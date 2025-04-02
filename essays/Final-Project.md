@@ -12,8 +12,6 @@ labels:
   - AI Integration
 ---
 
-# **Sync’d: Optimizing Student Time Management**
-
 ### **Overview**
 
 **Problem:**

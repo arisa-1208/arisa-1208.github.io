@@ -14,7 +14,7 @@ labels:
 ## Project Proposers
 *This essay was collaboratively written by:*
 ###### [Angela Joy Almeron](https://angelaalmeron.github.io/)
-###### [Sylvia Arjona](https://silviaarjonag.github.io/)
+###### [Silvia Arjona](https://silviaarjonag.github.io/)
 ###### [Arisa Nakai](https://arisa-1208.github.io/)
 ###### [Jaimee Yokoyama](https://jamiee-tech.github.io/)
 ---

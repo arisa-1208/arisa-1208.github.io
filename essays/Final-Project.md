@@ -12,10 +12,10 @@ labels:
   - AI Integration
 ---
 #### Project Proposers:
-#### [Angela Joy Almeron](https://angelaalmeron.github.io/)
-#### [Sylvia Arjona](https://silviaarjonag.github.io/)
-#### [Arisa Nakai](https://arisa-1208.github.io/)
-#### [Jaimee Yokoyama](https://jamiee-tech.github.io/)
+###### [Angela Joy Almeron](https://angelaalmeron.github.io/)
+###### [Sylvia Arjona](https://silviaarjonag.github.io/)
+###### [Arisa Nakai](https://arisa-1208.github.io/)
+###### [Jaimee Yokoyama](https://jamiee-tech.github.io/)
 ---
 
 ## Overview

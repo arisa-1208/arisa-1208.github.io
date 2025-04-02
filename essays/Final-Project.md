@@ -42,10 +42,10 @@ College students often struggle to balance academic responsibilities, part-time 
 
 *Sync’d* will leverage AI to deliver smarter, more personalized planning—turning **static schedules into dynamic, adaptive tools**.
 
-####  ♦ **Smart Schedule Generator**  
+####  » **Smart Schedule Generator**  
 Using a simple AI model or leveraging the OpenAI GPT API, the system will analyze user inputs and generate an optimized weekly schedule. By considering fixed commitments, academic priorities, and personal preferences, the AI will ensure students receive well-balanced schedules that optimize their time while preventing overload.
 
-####  ♦ **Adaptive Learning (Optional)**  
+####  » **Adaptive Learning (Optional)**  
 Over time, Sync’d can track behavior patterns. If a student frequently skips scheduled study sessions at certain times, the AI will learn from this pattern and adjust future recommendations accordingly. For instance, if a student consistently avoids evening study sessions, the AI will deprioritize those time slots when generating future schedules.
 
 ---

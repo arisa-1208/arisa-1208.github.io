@@ -11,7 +11,7 @@ labels:
   - Student Life
   - AI Integration
 ---
-###### Project Proposers
+##### Project Proposers
 *This essay was collaboratively written by:*
 ###### [Angela Joy Almeron](https://angelaalmeron.github.io/)
 ###### [Sylvia Arjona](https://silviaarjonag.github.io/)

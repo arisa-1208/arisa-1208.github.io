@@ -14,6 +14,8 @@ labels:
 #### Project Proposers
 Angela Joy Almeron, Sylvia Arjona, Arisa Nakai, & Jaimee Yokoyama
 
+---
+
 ## Overview
 
 **Problem:**

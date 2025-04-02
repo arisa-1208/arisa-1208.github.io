@@ -12,7 +12,7 @@ labels:
   - AI Integration
 ---
 
-## **Overview**
+## Overview
 
 **Problem:**
 College students often struggle to balance academic responsibilities, part-time work, extracurricular activities, and personal life. While tools like **Google Calendar** provide general scheduling platforms, they lack personalized features that cater to individual academic goals and preferences. Other platforms, such as **Notion**, require extensive customization, making them difficult for new users to adopt effectively. Many students aren’t sure how to allocate their study hours efficiently, especially when juggling multiple courses with varying workloads.
@@ -22,7 +22,7 @@ College students often struggle to balance academic responsibilities, part-time 
 
 ---
 
-## **Approach**
+## Approach
 
 *Sync’d* will provide students with a streamlined and intelligent scheduling system. Users will be able to:
 
@@ -36,19 +36,19 @@ College students often struggle to balance academic responsibilities, part-time 
 
 ---
 
-## **AI Integration**
+## AI Integration
 
 *Sync’d* will leverage AI to deliver smarter, more personalized planning—turning **static schedules into dynamic, adaptive tools**.
 
-####  » **Smart Schedule Generator**  
+####  » Smart Schedule Generator  
 Using a simple AI model or leveraging the OpenAI GPT API, the system will analyze user inputs and generate an optimized weekly schedule. By considering fixed commitments, academic priorities, and personal preferences, the AI will ensure students receive well-balanced schedules that optimize their time while preventing overload.
 
-####  » **Adaptive Learning (Optional)**  
+####  » Adaptive Learning (Optional)  
 Over time, Sync’d can track behavior patterns. If a student frequently skips scheduled study sessions at certain times, the AI will learn from this pattern and adjust future recommendations accordingly. For instance, if a student consistently avoids evening study sessions, the AI will deprioritize those time slots when generating future schedules.
 
 ---
 
-## **Mockup Pages**
+## Mockup Pages
 
 The application will include the following pages:
 
@@ -63,7 +63,7 @@ The application will include the following pages:
 
 ---
 
-## **Use Case Scenarios**
+## Use Case Scenarios
 
 Several use cases illustrate the benefits of Sync’d:
 
@@ -75,7 +75,7 @@ Several use cases illustrate the benefits of Sync’d:
   
 ---
 
-## **Beyond the Basics**
+## Beyond the Basics
 
 Future enhancements may include:
 
@@ -89,7 +89,7 @@ Future enhancements may include:
 
 ---
 
-## **Implementation Outlook**
+## Implementation Outlook
 
 *Sync’d* will offer a tailored and intelligent solution for students struggling with time management. By leveraging AI to create optimized schedules, it helps students balance their academic and personal responsibilities efficiently. With its user-friendly interface and adaptable recommendations, Sync’d can promote consistency, reduce stress, and encourage effective study habits. Future enhancements, such as Google Calendar integration and AI-driven analytics, will further refine the user experience, making it an indispensable tool for college students.
 

@@ -11,7 +11,7 @@ labels:
   - Software-Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/IMG_5643.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/design pattern.jpg">
 
 &nbsp; 
 
@@ -40,6 +40,11 @@ Sync’d Study is a web application designed to help students at the University 
 
 When building Sync’d Study, I used the Singleton Pattern to manage our database connection. I made sure there was only one active connection that the whole app could use, which helped prevent crashes or weird bugs when multiple users interacted with the database at the same time.
 I also used the Observer Pattern for our calendar system. When study sessions were added, edited, or deleted, multiple parts of the app — like the calendar view, the session list, and notifications — needed to update right away. Instead of coding each update manually, I set it up so those parts could "subscribe" to changes. This made everything a lot smoother and reduced the chances of missing an update.
+
+<p align="center">
+  <img src="../img/sync'd study sign in page.png" width="45%" alt="Sync'd Study User Sign In Page">
+  <img src="../img/sync'd study calendar page.png" width="45%" alt="Sync'd Study User Calendar Page">
+</p>
 
 Thinking back, I also used parts of the Factory Pattern in Sync’d Study without fully realizing it at first. We had different user types — sensei, grasshopper, or both — and instead of putting messy if statements all over the place, I set up a system that created the right type of user object depending on the situation. Later, when I learned more about design patterns, I realized I had built a basic Factory without even planning it that way!
 

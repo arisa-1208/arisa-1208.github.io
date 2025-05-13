@@ -11,7 +11,7 @@ labels:
   - AI Usage
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/IMG_5643.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/benefits-of-ai.jpeg">
 
 ## I. Introduction
 

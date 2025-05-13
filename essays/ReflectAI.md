@@ -21,6 +21,8 @@ Artificial Intelligence (AI) has become a transformative tool in education, espe
 
 These tools provided on-demand explanations, code examples, and real-time help, which allowed me to work more efficiently and gain a deeper understanding of key software engineering principles. Whether I was working on a timed WOD, writing an essay about coding standards, or trying to fix a broken API route in our final project, AI became a constant resource. At the same time, using AI also taught me the importance of reviewing its responses carefully and learning how to ask better, more specific questions. This essay reflects on how AI has impacted my experience in ICS 314—both the challenges and the benefits—and how it shaped the way I now approach software engineering.
 
+---
+
 ## II. Personal Experience with AI
 
 ### 1. Experience WODs (e.g., E18)
@@ -94,6 +96,8 @@ I used AI in several smaller but important ways throughout the course. Before su
 AI also helped me prepare for my final project proposal presentation. I asked for help drafting a short pitch and practiced explaining the project idea clearly. ChatGPT even helped me anticipate questions I might be asked during the presentation.
 Lastly, I used AI to resolve GitHub issues like merge conflicts and push errors. I would ask things like “How do I fix a non-fast-forward error?” and follow the steps to resolve problems quickly.
 
+---
+
 ## III. Impact on Learning and Understanding
 In the beginning or even before I took this class, using AI seemed like I was "cheating" in a way. But then after working along with it in my assignments, I have started to realize that maybe using AI is not as bad as I thought. 
 
@@ -102,6 +106,8 @@ The big thing that I felt was that although it may be baby steps when compared t
 AI helped me understand software engineering concepts faster, especially when I was stuck or confused by what the assignment was asking for. It made me more confident in debugging and in explaining code to others. However, it didn't take too long for me to understand the downfall of fully relying on AI. I realized that I needed to think critically about its output, because it could be confidently wrong or provide outdated methods. I remember that for specific WODs, my professor would warn us to not completely rely on AI as it may take us to the wrong and complicated path to the solution. 
 But throughout this whole semester and working together with AI right beside me as I complete these assignments, I can definitely say that without the use of AI, I probably would have still been confused on how things worked. For example the differences between Next.js, Typescript, and React. It has helped me gain valuable knowledge in many ways as ChatGPT has challenged me to think about issues and problems through various aspects, not just one point of view.
 
+---
+
 ## IV. Practical Applications
 Outside of ICS 314, I used AI to help me in other areas of school and career development. One major example is when I worked on my professional resume. I asked ChatGPT questions like “Can you help me reword this bullet point to sound more professional?” or “What’s a strong summary for a student applying to tech internships?” It gave me great examples and formatting suggestions that helped me polish my resume.
 
@@ -109,15 +115,21 @@ I’ve also used AI in my other classes to summarize content, help me study for 
 
 Even outside of school, I have been relying a lot on AI, for example having it summarize the recent news that is going on around the world, and etc. 
 
+---
+
 ## V. Challenges and Opportunities
 One of the challenges I faced with using AI was figuring out the right prompts to ask. Sometimes I knew what I wanted, but if I didn’t phrase the question clearly, I would get an unrelated or confusing response. There were also times when the code that AI gave me looked good but didn’t actually work in my project. This taught me that while AI is helpful, it doesn’t replace testing and understanding your own code.
 
 However, AI also opened up new opportunities. It let me work independently on things I may have struggled to figure out alone. I was able to explore new tools like Supabase and Prisma more quickly because I had help breaking down how to use them. This made me excited to explore even more advanced tools in future classes and projects.
 
+---
+
 ## VI. Comparative Analysis
 When comparing traditional learning with AI-enhanced learning, I found both have strengths. Traditional lectures and discussions are better for understanding theory and getting feedback. But AI helped me reinforce those lessons by giving me instant answers and examples. When I combined both, such as using AI after class to review what we learned, I felt more confident and engaged. 
 
 AI also helped fill in the blanks when I didn’t want to bother a classmate or the professor with small questions. It became a sort of assistant that gave me the freedom to work at my own pace. I really feel like I have a personal tutor no matter when and where I am at. I would often stay up till 3 or 4 in the morning to study or complete assignments but AI is always there for me when I need to ask the simplest questions to the most difficult questions ever. But at the same time, I always had to be careful to verify AI’s answers and not just copy what it gave me without thinking.
+
+---
 
 ## VII. Future Considerations
 I think AI will become an even bigger part of software engineering education in the future. Right now, it's mainly used to answer questions or explain concepts, but I can see it being used for things like grading practice code, suggesting more efficient solutions, or even giving feedback on code quality and readability in real time. That could really help students improve faster.
@@ -125,6 +137,8 @@ I think AI will become an even bigger part of software engineering education in 
 I also hope that future classes encourage students to not just use AI, but to use it responsibly. That means learning how to write clear, specific prompts and knowing how to double-check the responses they get. AI can make things more efficient, but it’s not always perfect, so students need to be taught to treat it as a tool, not a final answer.
 
 It would be really cool if AI tools were built directly into the platforms we already use—like IDEs, course websites, or even coding challenge platforms. That way, students wouldn’t need to keep switching tabs or copying and pasting their code into a separate window. But at the same time, it’s important that these tools are designed to support the learning process, not just hand out solutions. If AI is used in the right way, I think it can actually make classes more interactive and helpful, without taking away the challenge or value of figuring things out ourselves.
+
+---
 
 ## VIII. Conclusion
 Reflecting on my time in ICS 314, I’ve realized how much AI has helped me grow—not just as a student, but as someone who’s really starting to understand what software engineering is all about. I used AI in almost every assignment, from the early WODs where I didn’t even know how to phrase my questions properly, to our final project where we were working with real tools like Supabase, Prisma, and Vercel. It wasn’t always easy—actually, most of the time it was really hard—but AI gave me a place to start when I felt lost.

@@ -57,9 +57,11 @@ When reviewing React hooks and unfamiliar syntax like useEffect, I asked: “Exp
 
 Another time, I was struggling to connect Vercel, Supabase, and Prisma. I asked ChatGPT questions like:
 
-“How do I connect my deployed Vercel app to my Supabase database?”
-“Why isn’t Prisma recognizing my Supabase schema on production?”
-“How do I open and inspect my Supabase database in pgAdmin?”
+> “How do I connect my deployed Vercel app to my Supabase database?”
+
+> “Why isn’t Prisma recognizing my Supabase schema on production?”
+
+> “How do I open and inspect my Supabase database in pgAdmin?”
 
 AI walked me through checking my .env file configuration, setting the correct DATABASE_URL, syncing schema changes with Prisma migrate, and using Supabase connection strings to link it with external clients like pgAdmin. These tutorials were especially helpful because they combined multiple technologies I hadn’t used together before.
 
@@ -94,9 +96,9 @@ I used ChatGPT to help generate documentation for my functions, especially durin
 This was really helpful because it taught me how to write clearer, standardized documentation. Before that, I didn’t really know what was expected beyond a simple comment. It also made my code easier for my teammates to understand and for me to revisit later.
 
 ### 13. Quality assurance
-When ESLint gave me an error, I asked ChatGPT: “How do I fix the missing dependency in useEffect warning?” and it explained how to fix the warning safely. 
+When ESLint gave me warnings like the missing dependency in useEffect, I asked ChatGPT this: “How do I fix the missing dependency in useEffect warning?” It gave me a clear explanation of what the warning meant and showed how to fix it in a safe way without accidentally causing an infinite loop or breaking my component.
 
-It also helped when I asked questions like: “What’s wrong with this map function in React?” and provided clear explanations of key props and best practices. I used this a lot when testing new features during our final project.
+ChatGPT also helped when I ran into logic issues, like with map functions in React. I asked questions such as, “What’s wrong with this map function in React?” and it walked me through common mistakes, explained how to use key props correctly, and pointed out best practices. I relied on AI a lot during the final project while testing new features which it helped me catch issues I might have missed and gave me confidence to try different approaches without feeling completely stuck.
 
 ### 14. Other uses in ICS 314
 I used AI in several smaller but important ways throughout the course. Before submitting assignments, I often asked ChatGPT to remind me of the correct steps for submitting GitHub repositories or final deliverables, just to make sure I didn’t miss anything. It helped me stay organized and confident about meeting all the requirements.

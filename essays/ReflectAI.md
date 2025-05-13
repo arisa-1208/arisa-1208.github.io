@@ -13,8 +13,6 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/IMG_5643.jpg">
 
-&nbsp; 
-
 ## I. Introduction
 
 Artificial Intelligence (AI) has become a transformative tool in education, especially in fields like Software Engineering where problem-solving, creativity, and technical precision are essential. Instead of replacing learning, AI has started to reshape how we learn—giving students new ways to understand concepts, write better code, and overcome technical challenges. In ICS 314, AI tools like ChatGPT, Claude, and GitHub Copilot played an influential role in my coding workflow and learning process. I found myself using these tools for everything from debugging and writing functions, to explaining concepts I didn’t fully understand the first time in class.
@@ -29,7 +27,7 @@ These tools provided on-demand explanations, code examples, and real-time help, 
 For most of the Experience WODs, I have used ChatGPT to help me understand what the assignment was asking for and how I should efficiently code my solution. For E18, Functional Programming, I asked: "Without using a for or a while loop, can you help me implement the functions using the Array functional methods?" This helped me to understand how functional programming worked and how I needed to code this so that I can get the output that I want.
 
 ### 2. In-class Practice WODs
-I used Chat GPT for the In-Class Practice WODs, for example the recreation of the Murphy's React Mockup using Next.js. I have asked AI (ChatGPT and Claude) specific questions such as "Can you help me recreate the navbar so that it looks just like the one seen in the photo?" For the most part, AI was able to help me recreate there were times where I was having a hard time trying to explain exactly what I wanted which as a result, I was given a completely different navbar than what I was hoping to see. 
+I used Chat GPT for the In-Class Practice WODs, for example the recreation of the Murphy's React Mockup using Next.js. I have asked AI (ChatGPT and Claude) specific questions such as "Can you help me recreate the navbar so that it looks just like the one seen in the photo?" For the most part, AI was able to help me recreate there were times where I was having a hard time trying to explain exactly what I wanted which as a result, I was given a completely different navbar than what I was hoping to see. So that was when I realized that AI isn't super reliable and that we should only be using it as a supportive tool to guide our thinking, not something to blindly depend on.
 
 ### 3. In-class WODs
 I can say that I used AI for all of the In-class WODs that we had. Through my experience, there were times throughout the WOD where I was having a hard time figuring out how to explain what I wanted AI to give me. An example would be the WOD where we had to recreate the KoHana Rum Our Journey Page. through React. I remember how I was having a hard time figuring out how to get the navbar and the footer work just as I wanted. I have asked multiple times how to get the dropdown menu button in the top right hand corner in the navbar to show only when I minimize the tab. Though at the end, with the use of both ChatGPT and Claude, I was able to create a very close mockup website by the time limit.
